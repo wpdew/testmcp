@@ -1,0 +1,13 @@
+{
+  "name": "wpdew/testmcp-public",
+  "description": "Тестовый PHP-проект для практики с Copilot и MCP (папка public)",
+  "type": "project",
+  "require": {
+    "wpdew/orderclass": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
